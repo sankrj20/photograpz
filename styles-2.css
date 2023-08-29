@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5rem;
+    height: 11.0625rem;
+
+}
+
+#logoContainer{
+    text-align: center;
+font-family: Manrope;
+font-size: 2rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+#logoContainer h1{
+    color: var(--primary-100, #A5823C);
+
+
+}
+
+#logoContainer span{
+    color: var(--dark-100, #24282C);
+}
+
+#listElements{
+    display: flex;
+    justify-content: space-around;
+}
+
+#listE ul{
+    list-style: none;
+    
+    display: inline-flex;
+justify-content: space-around;
+align-items: flex-start;
+gap: 3rem;
+padding: 0 40px;
+}
+
+#listE span{
+    width: 2px;
+    height: 20px;
+    background-color: #878787;
+}
+
+#listE li a{
+    font-family: Manrope;
+font-size: 1.5rem;
+font-style: normal;
+line-height: normal;
+text-decoration: none;
+}
+
+#listE li:first-child a{
+    font-weight: 700;
+    color: var(--primary-100, #A5823C);
+    border: 1px;
+    border-bottom: #A5823C;
+
+}
+
+#listE li a{
+    font-weight: 500;
+    color: var(--grey-100, #878787);
+}
+
+#Contact{
+    display: flex;
+width: 12.9375rem;
+height: 5.0625rem;
+padding: 1.5rem 2rem;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+background: var(--primary-100, #A5823C);
+}
+
+#Contact p{
+    color: var(--background-light-100, #FFF);
+text-align: center;
+font-family: Manrope;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+.mainSection{
+    display: flex;
+    padding: 5.31rem 5rem;
+}
+
+#firstSec{
+    display: flex;
+    flex-basis: 70%;
+    justify-content: start;
+}
+#secondSec{
+    display: flex;
+    flex-basis: 30%;
+}
+
+#firstSec h1{
+    font-family: Manrope;
+    margin: 0;
+    font-style: normal;
+    line-height: normal;
+}
+
+#firstSec section{
+    color: var(--dark-100, #24282C);
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+#Ronaldo{
+    color: var(--primary-100, #A5823C);
+    font-weight: 800;
+    
+}
+
+#description{
+    color: var(--grey-100, #878787);
+    font-weight: 400;
+    line-height: 2.3125rem;
+}
+
+#secondSec{
+    color: var(--dark-100, #24282C);
+
+font-family: Manrope;
+font-size: 1.75rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display :flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.5rem;
+}
+
+#secondSec{
+    position: relative;
+}
+
+#secondSec section{
+    position: relative;
+    left: auto;
+
+}   
+
+#secondSec section img{
+    position: absolute;
+}   
+
+#secondSec section img:nth-child(2){
+    left: 2rem;
+}
+
+#secondSec section img:nth-child(3){
+    left: 4rem;
+}
+#secondSec section img:nth-child(4){
+    left: 6rem;
+}
+#secondSec section img:nth-child(5){
+    left: 8rem;
+}
+
+#secondSec section a{
+    position: absolute;
+    left: 14rem;
+}
+
+#secondSec h3{
+    margin: 0;
+}
+
+#secondSec section{
+    display: flex;
+align-items: center;
+gap: 1.5rem;
+}
+
+#secondSec section img{
+    width: 3.75rem;
+height: 3.75rem;
+flex-shrink: 0;
+border-radius: 3.75rem;
+border: 4px solid var(--background-light-100, #FFF);
+}
+
+#secondSec a{
+    color: var(--primary-100, #A5823C);
+}
+
+#secondSec hr{
+    width: 100%;
+
+margin: 0;
+flex-shrink: 0;
+border-radius: 6.25rem;
+background: var(--grey-40, rgba(135, 135, 135, 0.40));
+}
+
+#secondSec p {
+    color: var(--dark-100, #24282C);
+margin: 0;
+font-family: Manrope;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+#secondSec button{
+    display: inline-flex;
+padding: 1.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.625rem;
+color: var(--background-light-100, #FFF);
+
+
+font-family: Manrope;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+background: var(--primary-100, #A5823C);
+}
+
+.imageSection img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.75rem 5rem;
+    padding-bottom: 4.69rem;
+    object-fit: cover;
+    width: 100%;
+    height: 40rem;
+    margin-bottom: 4.69rem; 
+}
+
+
+.aboutMeMainSection{
+    display: flex;
+    padding: 0 5rem;
+}
+
+
+#AboutMeSection h4{
+    padding-top: 9.5rem;
+    color: var(--dark-100, #24282C);
+font-family: Manrope;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+}
+
+#AboutMeSection h3{
+  color: var(--dark-100, #24282C);
+font-family: Manrope;
+font-size: 3.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 4.6875rem;  
+margin: 0;
+margin-top: 1rem;
+}
+
+#AboutMeSection span{
+    color: var(--primary-100, #A5823C);
+font-family: Manrope;
+font-size: 3.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 4.6875rem;
+}
+
+#AboutMeSection p{
+    color: var(--grey-100, #878787);
+font-family: Manrope;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.3125rem;
+}
+
+#AboutMeSection button{
+    color: var(--background-light-100, #FFF);
+
+
+font-family: Manrope;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 1.5rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.625rem;
+background: var(--primary-100, #A5823C);
+
+}
+
+#seeMoreSection{
+    display: flex;
+    gap: 3rem;
+}
+
+#imageContainer{
+    padding-top: 4.69rem;
+    width: 37.875rem;
+height: 47.3125rem;
+flex-shrink: 0;
+}
+
+
+
+
